@@ -35,8 +35,9 @@
     </tr>
   </thead>
 
-  <tbody>
+  <tbody id="laundryTableBody">
 
+</tbody>
     <tr>
       <td>Budi</td>
       <td>3 kg</td>
@@ -65,22 +66,35 @@
 
     <h2>Input Laundry</h2>
 
-<form class="laundry-form">
+<form class="laundry-form" id="laundryForm">
 
-  <input type="text" placeholder="Nama Pelanggan">
+  <input
+    type="text"
+    id="customerName"
+    placeholder="Nama Pelanggan"
+    required
+  >
 
-  <input type="number" placeholder="Berat Cucian (kg)">
+  <input
+    type="number"
+    id="weight"
+    placeholder="Berat Cucian (kg)"
+    required
+  >
 
-  <select>
+  <select id="service">
+
     <option>Cuci Reguler</option>
     <option>Cuci Express</option>
     <option>Cuci + Setrika</option>
+
   </select>
 
-  <button type="submit">Simpan</button>
+  <button type="submit">
+    Simpan
+  </button>
 
 </form>
-
     <h1>Dashboard Admin</h1>
 
     <div class="cards">
