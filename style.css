@@ -95,3 +95,35 @@ button {
 .laundry-form button {
   width: fit-content;
 }
+
+.laundry-table {
+  width: 100%;
+  margin-top: 20px;
+
+  border-collapse: collapse;
+  background: white;
+
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.laundry-table th,
+.laundry-table td {
+  padding: 15px;
+  border-bottom: 1px solid #eee;
+  text-align: left;
+}
+
+.status {
+  padding: 6px 12px;
+  border-radius: 999px;
+  font-size: 14px;
+}
+
+.process {
+  background: #facc15;
+}
+
+.done {
+  background: #4ade80;
+}
