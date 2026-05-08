@@ -1,4 +1,11 @@
+console.log("JS NYALA");
+window.onload = function() {
+
 const form = document.getElementById("laundryForm");
+
+console.log(form);
+
+}
 const tableBody = document.getElementById("laundryTableBody");
 
 form.addEventListener("submit", function(e) {
