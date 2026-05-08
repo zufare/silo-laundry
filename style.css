@@ -74,3 +74,24 @@ button {
 
   box-shadow: 0 2px 10px rgba(0,0,0,0.1);
 }
+
+.laundry-form {
+  margin-top: 30px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+
+  max-width: 400px;
+}
+
+.laundry-form input,
+.laundry-form select {
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.laundry-form button {
+  width: fit-content;
+}
